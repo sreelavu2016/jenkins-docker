@@ -15,7 +15,7 @@ public class DemoApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		SampleMessage message = new SampleMessage();
 		message.setCourseName("DevOps Training");
-		message.setMessage("Sample Project For Jenkins Docker Pipeline");
+		message.setMessage("Sample Project For Jenkins Docker Pipeline Commit");
 		message.setUserName("Sreenu.soft2012@gmail.com");
 		System.out.println(message);
 		
